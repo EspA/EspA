@@ -1,5 +1,3 @@
-# Jeremy Espagnol
-
 **Staff Software Engineer**
 
 Atlanta, Georgia · [(470) 830-9377](tel:+14708309377) · [jeremy.espagnol@gmail.com](mailto:jeremy.espagnol@gmail.com) · [linkedin.com/in/jeremyespagnol](https://www.linkedin.com/in/jeremyespagnol/)
