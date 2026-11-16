@@ -1,96 +1,72 @@
-**Staff Software Engineer**
+# Jeremy Espagnol
 
-Atlanta, Georgia · [(470) 830-9377](tel:+14708309377) · [jeremy.espagnol@gmail.com](mailto:jeremy.espagnol@gmail.com) · [linkedin.com/in/jeremyespagnol](https://www.linkedin.com/in/jeremyespagnol/)
+**Senior Principal Software Engineer (Staff-level) · Applied AI & Distributed Systems**
 
-English and French, native · Spanish, professional · Open to relocate anywhere in the US
+Atlanta, GA · Open to relocation anywhere in the US · (470) 830-9377 · jeremy.espagnol@gmail.com · [linkedin.com/in/jeremyespagnol](https://www.linkedin.com/in/jeremyespagnol/) · [github.com/EspA](https://github.com/EspA)
 
-## Profile
+English and French (native) · Spanish (professional)
 
-Staff-level software engineer with 16 years of international experience building high-scale supply chain and enterprise systems. Currently leading applied AI at Manhattan Associates (a Gartner Magic Quadrant Leader), directing a global team of 10 engineers across the US and India.
+## Summary
 
-Driven by a holistic view of our enterprise deployment lifecycle, I recently delivered an agentic AI platform using Google Vertex AI that fundamentally changed how we deploy our products. By optimizing for accuracy, low latency, and token efficiency, my team built a solution that cut customer design and build phases by 10x and go-live times by 3x. We delivered hundreds of AI agents to 100+ customers with multiple LLM upgrades and robust run-to-run regression checks. This technical milestone saved our clients millions in implementation costs and became a major driver for our AI cloud subscription growth.
+Staff-level software engineer with 16 years of experience building enterprise and supply chain systems at scale. Tech lead for Manhattan Associates' agentic AI platform on Google Vertex AI, which runs 300+ production agents and 100K+ agent runs a day across 100+ enterprise customers at 99.99% uptime, and cut implementation timelines by 10x. Hands-on in LLM systems (evaluation, regression gating, cost and latency optimization) and in the Java and GCP infrastructure underneath them.
 
-## Expertise
+## Skills
 
-* **Applied AI:** LLM agents, Vertex AI, Gemini / Claude / Grok APIs, MCP, RAG, function calling, structured output, reasoning traces, evaluation and regression gating across model upgrades, prompt and context engineering, token, cost, and latency optimization
-* **Backend:** Java, Spring Boot, REST, OAuth, SSO, SQL, ActiveMQ, Python, Shell
-* **Frontend:** Angular, JavaScript
-* **Platform:** Google Cloud, Kubernetes, Cloud Run, Cloud SQL (PostgreSQL, MySQL), load balancing, autoscaling, Docker, microservices, CI/CD, zero-downtime delivery
-* **Domain:** Warehouse, omnichannel, and transportation management; enterprise integration
+- **Applied AI:** LLM agents, Vertex AI, Gemini, Claude, and Grok APIs, MCP, RAG, function calling, structured output, evaluation and regression gating across model upgrades, prompt and context engineering, token, cost, and latency optimization
+- **Backend:** Java, Spring Boot, Python, REST, SQL, ActiveMQ, OAuth, SSO
+- **Platform:** Google Cloud, Kubernetes, Cloud Run, Cloud SQL (PostgreSQL, MySQL), Docker, microservices, autoscaling, CI/CD, zero-downtime delivery
+- **Frontend:** Angular, JavaScript
+- **Domain:** Warehouse, transportation, and omnichannel order management; enterprise integration
 
 ## Experience
 
 ### Manhattan Associates · 2014 – Present
+*Supply chain software leader serving global retailers and 3PLs, including DHL, Walmart, IKEA, and Home Depot.*
 
-*United States. Supply chain software leader for global retailers and 3PLs, including DHL, Walmart, IKEA, and Home Depot.*
+**Senior Principal Software Engineer, R&D (Staff-level IC, Tech Lead) · Atlanta, GA · Jan 2022 – Present**
 
-#### Senior Principal Software Engineer, R&D · Jan 2022 – Present
+- Tech lead for the company's enterprise agentic AI platform, leading a team of 10 engineers across the US and India. Set architecture with Product, VPs, and the CTO, led hiring, and stayed hands-on on the platform's hardest components.
+- Scaled the platform to 300+ production AI agents handling 100K+ agent runs per day at 99.99% uptime.
+- Rolled the platform out to 100+ customer deployments in 2026, cutting design and build from 20 weeks to 2 (10x) and minimum go-live from 6 months to 2 (3x). This saved customers millions in implementation cost and drove growth in AI cloud subscriptions.
+- Designed an LLM-agnostic framework supporting Gemini, Claude, and Grok, so the team could swap in new models and ship multiple LLM upgrades.
+- Cut latency 50% and average token use 60% by switching injected context from JSON to CSV, tuning sampling parameters, and routing requests between Pro and Flash model tiers.
+- Built evaluation gates with run-to-run regression checks that blocked unstable preview features and model-upgrade regressions from reaching production.
+- Built a secure execution environment that lets agents change live warehouse data over isolated private networks, with inspectable reasoning traces for customer audit.
+- Automated generation of core supply chain agents (receiving, putaway, orders, shipment), speeding up idea-to-PR by 5x for dozens of developers.
+- Wrote *GenAI Agents: A Developer's Guide*, the company-wide engineering standard for agentic systems.
+- Own the Java and Spring Boot microservices on GCP and Kubernetes behind the platform, supporting zero-downtime deploys, biweekly releases, and quarterly major upgrades.
 
-* Act as Tech Lead for our enterprise agentic AI platform, directing a global team of 10 software engineers. Partner with Product Management, VPs, and the CTO to define architectural strategy, lead hiring, and remain hands-on coding the platform's most complex features.
-* Drove a massive reduction in customer implementation labor by rolling out this platform across 100+ deployments in 2026. We cut design and build timelines from 20 weeks down to 2 weeks (10x reduction) and shortened minimum go-live from 6 months to 2 months, accelerating customer migration from on-premise to cloud subscriptions.
-* Architected an LLM-agnostic framework supporting Gemini, Claude, and Grok. Optimized the AI pipeline, converting injected context payloads from JSON to CSV, tuning parameters (Temperature, Top-P), and tiering models (Pro vs. Flash), achieving a 50% reduction in latency and cutting average token consumption by 60%.
-* Authored *GenAI Agents: A Developer's Guide*, establishing the internal engineering standard for agentic systems across the company.
-* Built a secure runtime execution environment that allows agents to safely modify live warehouse data over isolated private networks, complete with inspectable reasoning traces for user auditability. Gatekept unstable preview features and LLM upgrade deviation to maintain strict enterprise reliability.
-* Automated the generation of core supply chain agents (receiving, putaway, orders, shipment) to unblock dozens of developers, accelerating the idea-to-PR cycle by 5x.
-* Continually maintain and scale the underlying robust Java/Spring Boot microservices on GCP and Kubernetes, enabling zero-downtime deployments, bi-weekly feature releases, and quarterly major upgrades.
+**Senior Principal Consultant · Spain · Jan 2020 – Dec 2021**
 
-## Earlier roles
+- Led a team of analysts driving cloud adoption for tier-1 customers in Southern Europe.
+- Migrated customers from on-premises hosting to autoscaling cloud microservices with zero-downtime upgrades.
+- Designed multi-region hosting and disaster recovery for 20+ customers, achieving an RTO under 1 hour and an RPO of 15 minutes.
 
-### Manhattan Associates · 2014 – 2021
+**Principal Consultant · Spain · Jan 2017 – Dec 2019**
 
-*Customer delivery across the EMEA region, relocating from France to Spain.*
+- Built 99.9% available systems using HTTPS load balancing and Oracle RAC failover, validated through volume performance testing.
+- Secured customer networks with SSL, VPN tunneling, and OAuth 2 SSO with multi-factor authentication.
 
-#### Senior Principal Consultant · Jan 2020 – Dec 2021
+**Senior Analyst · France · Jan 2014 – Jan 2017**
 
-* Led a team of analysts day to day and trained them to drive cloud adoption for tier-1 customers in Southern Europe.
-* Migrated clients from on-premises hosting to cloud microservices with autoscaling and zero-downtime upgrades.
-* Designed multi-region hosting and disaster recovery to minimize customer RTO and RPO metrics.
+- Built Java and Spring Boot REST services integrating the product with customer systems.
+- Designed an eight-VM architecture for a high-volume warehouse that split UI, wave, material handling, and mobile traffic, so it could scale through peak season without bottlenecks.
+- Deployed Tomcat applications for 10+ EMEA customers and delivered 40+ days of technical training a year.
 
-#### Principal Consultant · Jan 2017 – Dec 2019
+### Capgemini · Software Development Consultant · Paris, France · 2012 – 2014
 
-* Engineered highly available (99.9%) systems using HTTPS load balancers and Oracle RAC failover, validated by extensive volume performance testing.
-* Secured client networks with SSL, VPN tunneling, and SSO using OAuth 2 multi-factor authentication.
+- Built a credit-management web application (HTML, CSS, JavaScript) that improved credit decision workflows for BNP Paribas.
 
-#### Senior Analyst · Jan 2014 – Jan 2017
+### IBM · Junior Project Manager · Montpellier, France · 2010 – 2012
 
-* Designed Java Spring Boot REST services to integrate our product with customer information systems.
-* Designed an eight-VM architectural layout for a high-volume warehouse prior to our microservices transition, segregating UI, wave, material handling, and mobile traffic to ensure peak season scaling without bottlenecks.
-* Deployed Tomcat web applications for 10+ customers in EMEA and delivered over 40 days of technical training annually.
+- Built a JavaScript and SQL BPM application for IBM Power and PureSystems supply chain delivery.
 
-### Capgemini · Jan 2012 – Jan 2014
+## Projects
 
-*Software Development Consultant, Paris, France.*
-
-* Built a credit-management application in HTML, CSS, and JavaScript that improved decision-making workflows for BNP Paribas.
-
-### IBM · Jan 2010 – Jan 2012
-
-*Junior Project Manager, Montpellier, France.*
-
-* Built a JavaScript and SQL BPM application for Power and PureSystems supply-chain delivery.
-
-## Companies
-
-### The Timeless Vault · 2025 – Present
-
-[thetimelessvault.com](https://thetimelessvault.com)
-
-* Founded and operate a profitable collectible-LEGO e-commerce business generating ~$300k annually.
-* Engineered the complete operational backend on Google Cloud: purchasing, quoting, dynamic pricing, cross-platform listing, inventory, and shipping integrations across eBay, Shopify, BrickLink, UPS, USPS, and FedEx.
-
-### WatchSeeBuy · 2026 – Present
-
-[watchseebuy.com](https://watchseebuy.com)
-
-* Developed an early AI search product over the eBay catalog, hosted on Google Cloud, serving ~1,500 queries daily for under 100 users.
-* Implemented SSO, OAuth, and real-time alerting; revenue from the eBay Partner Network and PayPal subscriptions.
+- **The Timeless Vault** ([thetimelessvault.com](https://thetimelessvault.com)) · Founder, 2025 – Present. Built the full backend on Google Cloud for a profitable collectibles e-commerce business (~$300k/year): pricing, listing, inventory, and shipping integrations across eBay, Shopify, BrickLink, UPS, USPS, and FedEx.
+- **WatchSeeBuy** ([watchseebuy.com](https://watchseebuy.com)) · 2026 – Present. AI search over the eBay catalog on Google Cloud, serving ~1,500 queries a day, with SSO, real-time alerts, and subscription revenue.
 
 ## Education
 
-### Master’s degree, Information Technologies Management · 2010 – 2012
-
-IAE, University School of Management, France
-
-### Bachelor’s degree, Computer Science · 2005 – 2009
-
-University of Montpellier, France
+- **M.S., Information Technology Management**, IAE University School of Management, France · 2012
+- **B.S., Computer Science**, University of Montpellier, France · 2009
