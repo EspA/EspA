@@ -1,8 +1,4 @@
-# Jeremy Espagnol
-
 **Senior Principal Software Engineer (Staff-level) · Applied AI & Distributed Systems**
-
-Atlanta, GA · Open to relocation anywhere in the US · (470) 830-9377 · jeremy.espagnol@gmail.com · [linkedin.com/in/jeremyespagnol](https://www.linkedin.com/in/jeremyespagnol/) · [github.com/EspA](https://github.com/EspA)
 
 English and French (native) · Spanish (professional)
 
